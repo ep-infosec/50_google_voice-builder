@@ -1,0 +1,17 @@
+{
+  "engine_id": "festival",
+  "name": "Festival standard",
+  "fileTypes":{
+    "lexicon":["SCM"],
+    "phonology":["JSON_EXTERNAL_PHONOLOGY"],
+    "wavs":["TAR"],
+    "wavsInfo":["FESTIVAL_PROMPTS"]
+  },
+  "params": [
+    {
+      "key":"wagon_stop",
+      "value":"50",
+      "description": "CART minimum number of examples for leaf nodes"
+    }
+  ]
+}
